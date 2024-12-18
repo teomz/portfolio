@@ -1,9 +1,12 @@
+import Intro from "@/components/intro";
+import SectionDivider from "@/components/section-divider";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
-      
-    </div>
+    <main className="flex flex-col items-center justify-center px-4">
+      <Intro/>
+      <SectionDivider/>
+    </main>
   );
 }
