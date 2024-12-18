@@ -44,10 +44,10 @@ export default function Intro() {
                 quality='95'
                 className="inline-block ml-2" 
             />
-            <span>I'm <strong>Ming Zhe</strong>.</span> I'm a{" "}
+            <span>I am <strong>Ming Zhe</strong>.</span> I am a{" "}
             <span className="font-bold">Data Engineer</span> with{" "}
             <span className="font-bold">1 year</span> of experience. I am always{" "}
-            <span className="italic">learning</span>, always{" "}
+            <span className="italic">learning</span>, {" "}
             <span className="italic">creating</span>, and passionate about advancing my skills in data engineering and related fields.
         </motion.h1>
 
