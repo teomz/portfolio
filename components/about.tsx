@@ -18,7 +18,7 @@ export default function About() {
         I have a passion for machine learning and data engineering, focusing on optimizing training and deployment processes, 
         designing efficient data pipelines, and driving innovation in AI and data-driven fields 🤖🔧. 
         My goal is to contribute to impactful projects while continuously learning and growing in my profession. 
-        🧠 Currently, I'm learning Golang and Typescript to further expand my skill set.
+        🧠 Currently, I am learning Golang and Typescript to further expand my skill set.
       </p>
     </motion.section>
   );
