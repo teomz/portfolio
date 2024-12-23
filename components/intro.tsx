@@ -43,6 +43,7 @@ export default function Intro() {
                 height='50'
                 quality='95'
                 className="inline-block ml-2" 
+                unoptimized 
             />
             <span>I am <strong>Ming Zhe</strong>.</span> I am a{" "}
             <span className="font-bold">Data Engineer</span> with{" "}
