@@ -1,7 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import projectImg from "@/public/project_placeholder.webp";
 
 export const links = [
@@ -33,28 +31,84 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "HR Analytics Intern",
+    location: "TUV SUD PSB",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      `  
+Best Internship Award Winner (2023): Honored for improving reporting processes.
+• Created detailed annual HR reports for management, supporting strategic decisions with data-driven insights.
+• Developed a dynamic Excel dashboard for real-time data exploration, enhancing user experience and analysis efficiency.
+• Collaborated across regions and departments to define data requirements, ensuring accurate and insightful data representation in reports and dashboards.
+      `,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Nov 2022 - May 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Machine Learning Engineer Intern",
+    location: "TUV SUD PSB",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      `
+• Trained advanced classification algorithms, enhancing
+accuracy and recall, leading to significant improvements
+in model performance.
+• Utilized Docker containerization for seamless
+deployment of models.
+`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2023 - Jul 2023",
+  },
+  {
+    title: "AI Software Engineering Intern",
+    location: "Cynapse",
+    description:
+      `
+• Automated synthetic dataset generation by developing a 
+data pipeline leveraging stable diffusion and LLAMAs for 
+creating multimodal person attribute datasets.
+• Utilized AWS SageMaker to streamline training for a 
+sophisticated multimodal Generative AI model tailored for 
+person search within CCTV surveillance databases, 
+implemented using Python.
+• Enhanced dataset adaptability by augmenting data 
+structure, ensuring superior generalization across diverse 
+use cases.
+• Implemented prompt engineering techniques to optimize 
+descriptive text generation for model training, resulting in 
+significant model improvement.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2023 – Mar 2024 ",
+  },
+  {
+    title: "HR Analytics Intern",
+    location: "TUV SUD PSB",
+    description:
+      `
+• Created detailed annual HR reports for management, 
+supporting strategic decisions with data-driven insights. 
+`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2024 – May 2024",
+  },
+  {
+    title: "Data Engineer",
+    location: "Luxoft",
+    description:
+      ` 
+• Developed and managed ETL/ELT processes to ensure 
+accurate and timely data flow. Implemented automation 
+scripts to enhance the efficiency and scalability of data 
+ingestion.
+• Created user-friendly Tableau dashboards that present 
+complex data in clear and actionable formats. This 
+significantly improved user experience and interactivity 
+while reducing latency.
+• Enhanced the efficiency of data pipelines and the 
+responsiveness of dashboards, resulting in a better user 
+experience.
+• Maintained high standards of data accuracy and reliability 
+through rigorous validation practices.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2024 – Present",
   },
 ] as const;
 

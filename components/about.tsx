@@ -19,7 +19,7 @@ export default function About() {
       ref={ref}
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="spaced-text text-lg gap-4">
         — an enthusiastic software engineer and data engineer based in Singapore🌍.  
         I have a passion for machine learning and data engineering, focusing on optimizing training and deployment processes, 
         designing efficient data pipelines, and driving innovation in AI and data-driven fields 🤖🔧. 
